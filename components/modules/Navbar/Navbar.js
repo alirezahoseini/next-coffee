@@ -1,10 +1,11 @@
 import Link from 'next/link'
+import PcNav from './PcNav/PcNav'
 
 function Navbar() {
   return (
     <>
       <nav>
-        <Link href='' ></Link>
+        <PcNav />
       </nav>
     </>
   )

@@ -21,7 +21,8 @@ function PcNav() {
           <Link href={'/menu'}>Menu</Link>
         </li>
         <li>
-          <div className={styles.drapdown}>Pages
+          <div className={styles.drapdown}>
+            <span>Pages</span>
             <div className={styles.drapdown_wrapper}>
               <ul>
                 <li>

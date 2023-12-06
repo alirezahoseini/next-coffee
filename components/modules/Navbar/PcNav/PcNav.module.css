@@ -12,6 +12,7 @@
 .pc_nav > ul{
     font-size: large;
     display: flex;
+    align-items: center;
     color: rgb(250, 250, 250);
 }
 .pc_nav > ul li {
@@ -33,7 +34,7 @@
 }
 .drapdown .drapdown_wrapper{
     position: absolute;
-    top: 25px ;
+    top: 35px ;
     left: -20px;
     visibility: hidden;
     pointer-events: none;
@@ -78,4 +79,13 @@
 .drapdown .drapdown_wrapper li:hover{
     background-color: #c7c7c7;
     color: #312627;
+}
+.drapdown .drapdown_wrapper::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -10px;
+    z-index: -1;
 }

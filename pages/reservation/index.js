@@ -6,4 +6,4 @@ function Reservation() {
   )
 }
 
-export default index
+export default Reservation

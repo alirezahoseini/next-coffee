@@ -6,4 +6,4 @@ function Services() {
   )
 }
 
-export default index
+export default Services

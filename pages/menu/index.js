@@ -6,4 +6,4 @@ function Menu() {
   )
 }
 
-export default index
+export default Menu

@@ -6,4 +6,4 @@ function Testimonial() {
   )
 }
 
-export default testimonial
+export default Testimonial
